@@ -6,10 +6,8 @@ Este proyecto consiste en importar tablas y datos de excel en python para uso y 
  
    $Python
   
-   $Spyder
-  
-   $Atom
-  
+   $Spyder o Atom
+ 
    $Terminal de Ubuntu
  
  después de esto se necesitan las siguientes librerías para poder importar los datos de excel.
@@ -20,7 +18,7 @@ Este proyecto consiste en importar tablas y datos de excel en python para uso y 
  
  # Instalación
  
-Para la instalación abrimos la terminal (Ctrol+T) y escribimos los siguientes comandos
+Para la instalación abrimos la terminal (Ctrl+Alt+T) y escribimos los siguientes comandos
 
   $sudo apt-get install python
 
