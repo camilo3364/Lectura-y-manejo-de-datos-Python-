@@ -93,6 +93,27 @@ Se hace lo mismo para la variable independiente.
  `plt.show`
 Para mostrar por consola usamos plt.showw
 
+Si se desean otro tipo de gráficas como la de barras se ejecuta el siguiente còdigo
+`datos=pd.ExcelFile('grafica2.xls')`
+
+`hoja2=datos.parse('Hoja2')`
+
+`print(hoja2)`
+
+`hoja2.plot(kind='bar')`
+
+Justo en el .plot por dentro del parentesis se especifica el tipo de gráfica que se quiere.
+
+`x=hoja2.ix[:,0]`
+
+`y=hoja2.ix[:,1]`
+
+`plt.ylabel('likes en Facebook')`
+
+`plt.xlabel('Genero')`
+
+`plt.show`
+
 # Construido con
 
   - Spyder
@@ -124,3 +145,10 @@ Para mostrar por consola usamos plt.showw
  `plt.xlabel('Temperatura (Centigrados)')` #Rotulación del eje y (n)
  
 ` plt.show    `                          #Muestra por consola la rotulación
+
+
+# Autores
+Universidad de Ibagué -Ingeniería Electrónica
+- **Juan Pablo Siachica**
+- **Juan Camilo Buitrago**
+-
