@@ -114,6 +114,9 @@ Justo en el .plot por dentro del parentesis se especifica el tipo de gráfica qu
 
 `plt.show`
 
+# Recursos
+
+
 # Construido con
 
   - Spyder
@@ -146,6 +149,18 @@ Justo en el .plot por dentro del parentesis se especifica el tipo de gráfica qu
  
 ` plt.show    `                          #Muestra por consola la rotulación
 
+ 
+ ` datos=pd.ExcelFile('grafica2.xls')`     
+` hoja2=datos.parse('Hoja2')`             #Se entra en el archivo excel y se abre la pestaña 2 que en este caso es Hoja2
+` print(hoja2)`                           #Se implirme la tabla de la hoja2
+` hoja2.plot(kind='bar') `                #Con el comando kind se selecciona el tipo de gráfica que se desea
+` x=hoja2.ix[:,0]`                        #Se escoge el lugar en dónde se encuentra columna de la variable independiente
+` y=hoja2.ix[:,1]`                        #Se escoge el lugar en dónde se encuentra columna de la variable dependiente
+` plt.ylabel('likes en Facebook')`        #Rotulación del eje dependiente
+` plt.xlabel('Genero')`                   #Rotulación del eje independiente
+` plt.show `                              #Muestra por consola la rotulación
+ 
+ 
 
 # Autores
 Universidad de Ibagué -Ingeniería Electrónica
