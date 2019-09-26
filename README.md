@@ -169,4 +169,4 @@ Justo en el .plot por dentro del parentesis se especifica el tipo de gráfica qu
 Universidad de Ibagué -Ingeniería Electrónica
 - **Juan Pablo Siachica**
 - **Juan Camilo Buitrago**
--
+- **Juan Sebastian Rengifo**
