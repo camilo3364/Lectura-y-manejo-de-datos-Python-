@@ -22,7 +22,7 @@ Para la instalación abrimos la terminal (Ctrl+Alt+T) y escribimos los siguiente
 
   `sudo apt-get install python`
 
-lo instalan y ya tendrán python, para descargar e instalar skpyder y atom se sigue el mismo proceso
+lo instalan y ya tendrán python, para descargar e instalar spyder y atom se sigue el mismo proceso
 
   `sudo apt-get install atom`
   
@@ -115,6 +115,9 @@ Justo en el .plot por dentro del parentesis se especifica el tipo de gráfica qu
 `plt.show`
 
 # Recursos
+- Link de la página web en dónde están los tipos de gráfica:
+[a link](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.plot.html)
+
 
 
 # Construido con
